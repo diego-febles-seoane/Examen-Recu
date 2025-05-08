@@ -1,4 +1,5 @@
 package es.ies.model;
+import java.util.Objects;
 
 
 public class VideoJuego {
@@ -35,6 +36,33 @@ public class VideoJuego {
         return fechaLanzamiento;
     }
 
+
+    @Override
+    public String toString() {
+        return "{" +
+            " id='" + getId() + "'" +
+            ", nombre='" + getNombre() + "'" +
+            ", plataforma='" + getPlataforma() + "'" +
+            ", fechaLanzamiento='" + getFechaLanzamiento() + "'" +
+            "}";
+    }
+    
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof VideoJuego)) {
+            return false;
+        }
+        VideoJuego videoJuego = (VideoJuego) o;
+        return id == videoJuego.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nombre, plataforma, fechaLanzamiento);
+    }
     
 
 
