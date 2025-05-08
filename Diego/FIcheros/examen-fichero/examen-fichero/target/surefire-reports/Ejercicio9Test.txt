@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio9Test
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in Ejercicio9Test
+Ejercicio9Test.testBuscarPorOrigen_CasoListaVacia -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "resultado" is null
+	at Ejercicio9Test.testBuscarPorOrigen_CasoListaVacia(Ejercicio9Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Ejercicio9Test.testBuscarPorOrigen_CasoOrigenDuplicado -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "resultado" is null
+	at Ejercicio9Test.testBuscarPorOrigen_CasoOrigenDuplicado(Ejercicio9Test.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Ejercicio9Test.testBuscarPorOrigen_CasoCaseInsensitive -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "resultado" is null
+	at Ejercicio9Test.testBuscarPorOrigen_CasoCaseInsensitive(Ejercicio9Test.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Ejercicio9Test.testBuscarPorOrigen_CasoOrigenExistente -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "resultado" is null
+	at Ejercicio9Test.testBuscarPorOrigen_CasoOrigenExistente(Ejercicio9Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+Ejercicio9Test.testBuscarPorOrigen_CasoNoExistente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "resultado" is null
+	at Ejercicio9Test.testBuscarPorOrigen_CasoNoExistente(Ejercicio9Test.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
