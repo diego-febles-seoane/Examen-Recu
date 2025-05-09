@@ -1,14 +1,11 @@
 package es.time;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.Period;
-import java.time.YearMonth;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoUnit;
-import java.time.*;
 
 public class Fecha {
 
@@ -128,8 +125,8 @@ public class Fecha {
         if (fecha1 == null || fecha2 == null) {
             return -1;
         }
-        if (fecha2.isBefore(fecha2)) {
-        return fecha1.compareTo(fecha2);
+        if (fecha1.isBefore(fecha2)) {
+            return fecha1.compareTo(fecha2);
         }else{
             return fecha2.compareTo(fecha1);    
         }

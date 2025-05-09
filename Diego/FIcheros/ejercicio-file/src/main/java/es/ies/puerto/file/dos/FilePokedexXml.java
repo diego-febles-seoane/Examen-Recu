@@ -13,7 +13,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.*;
 
 /**
- *   @author: alejandrosalazargonzalez
+ *   @author: diego-febles-seoane
  *   @version: 1.0.0
  */
 public class FilePokedexXml {
